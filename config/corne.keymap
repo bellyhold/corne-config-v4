@@ -75,7 +75,7 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp NUMBER_6      &kp N7             &kp N8                &kp N9                 &kp N0        &kp BSPC
+&trans  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp NUMBER_6      &kp N7             &kp N8                &kp N9                 &kp N0        &kp DEL
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &none
 &trans  &trans        &trans        &bt BT_CLR    &trans        &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp LEFT               &kp DOWN      &kp RIGHT
                                     &trans        &mo 1         &trans          &trans            &mo 2              &trans
