@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     combos {
@@ -75,10 +76,10 @@
 
             display-name = "Lower";
             bindings = <
-&trans     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp NUMBER_6      &kp N7             &kp N8                &kp N9                 &kp N0        &kp DELETE
-&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &none
-&soft_off  &trans        &trans        &bt BT_CLR    &trans        &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp LEFT               &kp DOWN      &kp RIGHT
-                                       &trans        &mo 1         &trans          &trans            &mo 2              &trans
+&trans        &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp NUMBER_6      &kp N7             &kp N8                &kp N9                 &kp N0        &kp DELETE
+&out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &none
+&soft_off     &trans        &trans        &bt BT_CLR    &trans        &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp LEFT               &kp DOWN      &kp RIGHT
+                                          &trans        &mo 1         &trans          &trans            &mo 2              &trans
             >;
         };
 
